@@ -1,3 +1,15 @@
+#pragma once
+#include <vector>
 #include <string>
+class Factorizer{
 
-std::string prime();
+
+    public:
+        std::vector<int> prime(int);
+
+        bool isItPrime(int);
+
+        bool isItComposite(int);
+
+        std::string reduce(int, int);
+};
